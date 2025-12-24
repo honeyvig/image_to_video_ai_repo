@@ -1,0 +1,10 @@
+
+version: "3.9"
+services:
+  image2video:
+    build: .
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    ports:
+      - "7860:7860"

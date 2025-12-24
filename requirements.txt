@@ -1,0 +1,9 @@
+
+torch
+diffusers
+transformers
+accelerate
+opencv-python
+Pillow
+imageio
+gradio
